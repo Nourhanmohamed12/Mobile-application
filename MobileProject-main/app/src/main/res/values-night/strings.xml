@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Audio">Audio</string>
+    <string name="explanation_of_the_project_idea">Explanation of the project idea</string>
+    <string name="login">Login</string>
+    <string name="logo" translatable="false">LOGO</string>
+    <string name="EmailLogin">email</string>
+    <string name="passwordLogin">password</string>
+    <string name="show_password">Show Password</string>
+    <string name="loginPress">Login</string>
+    <string name="new_user_register">New User Register</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="emailRegister">Email</string>
+    <string name="phone_number">Phone number</string>
+    <string name="passwordRegister">Password</string>
+    <string name="re_enter_password">Re-Enter password</string>
+    <string name="show_passwordRegister">Show password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="hope_to_feel_free_with_us">👉 Hope to feel free with Us 👈</string>
+    <string name="add_a_new_task">Add a new task</string>
+    <string name="description">Description</string>
+    <string name="descriptioninput">description..</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="taskTitle">Task</string>
+    <string name="taskInput">Task..</string>
+    <string name="update_your_task">Update your task</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="set_date">Set Date</string>
+    <string name="done">Done</string>
+    <string name="account">Account</string>
+    <string name="user_information">User Information</string>
+    <string name="developers">Developers</string>
+</resources>

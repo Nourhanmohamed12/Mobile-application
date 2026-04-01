@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityChoice"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/img">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonAudio"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Audio"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/boxdesign"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonImage"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/boxdesign"
+        android:text="@string/images"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+</LinearLayout>

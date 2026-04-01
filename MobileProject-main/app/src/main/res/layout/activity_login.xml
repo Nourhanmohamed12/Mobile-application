@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/backlog"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_margin="50dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:shadowColor="#FFFFFF"
+        android:text="@string/login"
+        android:textColor="#FDFDFD"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/logo"
+        app:srcCompat="@drawable/logoo" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/boxdesign"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:hint="@string/EmailLogin"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/boxdesign"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:hint="@string/passwordLogin"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="#FFFFFF" />
+
+
+    <CheckBox
+        android:id="@+id/CheckPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:minHeight="48dp"
+        android:text="@string/show_password"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/boxdesign"
+        android:fontFamily="@font/aclonica"
+        android:minHeight="48dp"
+        android:text="@string/loginPress"
+        android:textColor="#FDFDFD"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/text_register"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:fontFamily="@font/aclonica"
+        android:shadowColor="#000000"
+        android:text="@string/new_user_register"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+</LinearLayout>

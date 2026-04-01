@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flash List</string>
+    <string name="new_user_register">مُستخدم جديد</string>
+    <string name="loginPress">سجل</string>
+    <string name="show_password">اظهر الرقم السري</string>
+    <string name="passwordLogin">الرقم السري</string>
+    <string name="EmailLogin">الحساب الشخصي</string>
+    <string name="logo">لوجو</string>
+    <string name="explanation_of_the_project_idea">شرح لفكرة البروجكت</string>
+    <string name="Audio">الصوت</string>
+    <string name="login">التسجيل</string>
+    <string name="register">حساب جديد</string>
+    <string name="name">الاسم</string>
+    <string name="email">الحساب الشخصي</string>
+    <string name="Password">الرقم السري</string>
+    <string name="back_to_login">العوده للتسجيل</string>
+    <string name="logout">الخروج</string>
+    <string name="user_email">الحساب الشخصي للمستخدم :</string>
+    <string name="name_of_user">اسم المستخدم :</string>
+    <string name="first_name">اسمك الاول</string>
+    <string name="last_name">اسمك الاخير</string>
+    <string name="emailRegister">ايميلك الشخصي</string>
+    <string name="phone_number">رقم تليفونك</string>
+    <string name="passwordRegister">رقمك السري</string>
+    <string name="re_enter_password">ضع رقمك السري مجدداً</string>
+    <string name="show_passwordRegister">إظهار الرقم السري</string>
+    <string name="sign_up">تسجيل</string>
+    <string name="hope_to_feel_free_with_us">👉 نتمنالك سعادة مع البرنامج 👈</string>
+    <string name="add_a_new_task">إضافة مهمة جديدة</string>
+    <string name="description">مهمة</string>
+    <string name="descriptioninput">وصف المهمة</string>
+    <string name="cancel">الغاء</string>
+    <string name="save">حفظ</string>
+    <string name="taskTitle">المهمة</string>
+    <string name="taskInput">مهمة اليوم</string>
+    <string name="update_your_task">حدث مهمتك</string>
+    <string name="delete">مسح</string>
+    <string name="update">تحديث</string>
+    <string name="images">صور المطورين</string>
+    <string name="welcome_sir">أهلاً بك !</string>
+    <string name="set_date">التاريخ</string>
+    <string name="done">تمت</string>
+    <string name="account">Account</string>
+    <string name="user_information">معلومات المُستخدم</string>
+    <string name="developers">المطورين</string>
+</resources>
